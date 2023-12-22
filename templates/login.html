@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <h3>Login to your account</h3>
+        <p class="text">Enter your email below to login on your account</p>
+        <form class="login-form" method="POST">
+            <div>
+                <label>Username</label>
+                <input class="login-input" type="text" name="username" placeholder="admin" required>
+            </div>
+            <div>
+                <label>Password</label>
+                <input class="login-input" type="password" name="password" placeholder="123" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>{{ message }}</p>
+    </div>
+</body>
+</html>

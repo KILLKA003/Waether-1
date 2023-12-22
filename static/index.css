@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.underline {
+  background-color: hsl(221.2 83.2% 53.3%);
+  width: 120px;
+  height: 4px;
+  margin-top: 4px;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: hsl(210 40% 96.1%);
+  padding: 12px;
+  border: 1px solid hsl(214.3 31.8% 91.4%);
+}
+
+.avatar-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid hsl(214.3 31.8% 91.4%);
+  margin-top: 50px;
+}
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-inline: 30px ;
+  margin-top: 40px;
+}
+
+.input {
+  min-width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  outline: none;
+  margin-top: 4px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: hsl(221.2 83.2% 53.3%);
+  color: hsl(210 40% 98%);
+}
+
+.label {
+  color: gray;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.result-container p {
+  background-color: hsl(210 40% 96.1%);
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.result-container h5 {
+  margin-top: 10px;
+  color: hsl(215.4 16.3% 46.9%);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.result {
+  color: hsl(222.2 84% 4.9%);
+  font-weight: 700;
+}
+
+
+.login-container {
+  max-width: 380px;
+  border: 1px solid hsl(214.3 31.8% 91.4%);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 auto;
+  margin-top: 100px;
+} 
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.login-input {
+  border: 1px solid hsl(214.3 31.8% 91.4%);
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  max-width: 24rem;
+  display: inline-block;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.text {
+  margin-top: 8px;
+  color: hsl(215.4 16.3% 46.9%) ;
+}
+
+.logout-container {
+  display: flex;
+  justify-content: end;
+}
+
+.logout-btn {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: hsl(0 84.2% 60.2%);
+  color: hsl(210 40% 98%);
+  text-decoration: none;
+}
+
+
+
